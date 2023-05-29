@@ -6,6 +6,9 @@ final class RainATVLibraryTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(RainATVLibrary().text, "Hello, World!")
+//        avcodec_descriptor_get(1)
+        av_qsv_alloc_context()
+        iperf_time_now()
+//        XCTAssertEqual(RainATVLibrary().text, "Hello, World!")
     }
 }

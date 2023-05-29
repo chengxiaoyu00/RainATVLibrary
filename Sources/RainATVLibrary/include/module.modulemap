@@ -1,0 +1,6 @@
+module RainATVLibrary [system] {
+  header "RainATVLibrary.h"
+  header "libavcodec/avcodec.h"
+  export * //把引入的头文件重新导出。
+  module * { export * } //把导入头文件修饰成子module，并把符号全部导出
+}
